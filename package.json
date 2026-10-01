@@ -1,0 +1,22 @@
+{
+  "name": "ezr-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "EZR WhatsApp Bot - pairing-code WhatsApp bot built on Baileys",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pino": "^9.5.0",
+    "qrcode": "^1.5.4"
+  }
+}
